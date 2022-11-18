@@ -6,3 +6,70 @@ layout defaults
 *:after {
   box-sizing: border-box;
 }
+
+html {
+  --font-sans-serif: 'Figtree', sans-serif;
+  --black: #000;
+  --medium-grey: #b2b2b2;
+  --light-grey: #d9d9d9;
+  --brown: #8f8b75;
+}
+
+/**
+typography
+**/
+
+h1 {
+  font-size: 50px !important;
+  line-height: 50px;
+  font-weight: 450;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 450;
+  color: var(--medium-grey);
+  margin-top: -32px;
+}
+
+h3 {
+  font-size: 23px;
+  line-height: 26px;
+  font-weight: 450;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 450;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 21px;
+  font-weight: 450;
+  color: var(--medium-grey);
+  margin-top: -25px;
+}
+
+body {
+  font-family: var(--font-sans-serif);
+  font-size: 18px;
+  line-height: 21.25px;
+  font-weight: 450;
+}
+
+a {
+  color: black;
+  text-underline-offset: 3px;
+}
+
+hr {
+  border-top: 1px solid black;
+  margin-bottom: -7px;
+}
+
+img {
+  display: block;
+}
