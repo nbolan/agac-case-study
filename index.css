@@ -73,3 +73,7 @@ hr {
 img {
   display: block;
 }
+
+.half-page-column {
+  width: 500px;
+}
