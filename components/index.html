@@ -11,12 +11,25 @@
   <title>AGAC Components</title>
 </head>
 <body>
+  <div class="wrapper">
+  <article class="sidebar">
+    <aside>
+    <ul class="sidebar-list">
+      <li><a class="sidebar-link" href="#typography">TYPOGRAPHY DEFAULTS</a></li>
+      <li><a class="sidebar-link" href="#body copy">body</a></li>
+      <li><a class="sidebar-link" href="#headings">h1, h2, h3, h4, h5</a></li>
+      <li><a class="sidebar-link" href="#a">a</a></li>
+    </ul>
+    </aside>
+  </article>
+
+  <div class="content">
   <h1>AGAC Components</h1>
 
-  <h3>Typography Defaults</h3>
+  <h3 id="typography">TYPOGRAPHY DEFAULTS</h3>
     
   <article class="component">
-    <h3 class="component__name">Body</h3>
+    <h3 class="component__name" id="body copy">Body</h3>
     <div class="component__image">
       <img 
       srcset="screenshots/molecules/project-intro-block.png 2x"
@@ -29,13 +42,13 @@
       <p>Created in 2007, Papier is the most important art fair in Quebec. The Montreal event is a driving force in the Canadian contemporary art market and is a space that creates opportunities for exchanges and encounters between the general public, art enthusiasts as well as professionals from the visual arts community.</p>
       <p>AGAC flagship project for now thirteen editions, Papier brings together forty or so of the most prestigious Canadian art galleries each year, both members and non-members of the Association, allowing the public to discover nearly 400 artists.</p>
       <p>Over the years, the fair has been awarded prestigious distinctions, including the Grafika award for its graphic identity, an award for its architectural design and has been named four years in a row by BizBash Magazine in the Top 100 Events in Canada.</p>
-      <p><a href="!#">Visit Papier&#39s website</a></p>
+      <p><a href="!#" id="a">Visit Papier&#39s website</a></p>
       </div>
     </div>
   </article>
 
   <article class="component">
-    <h3 class="component__name">Headings</h3>
+    <h3 class="component__name" id="headings">Headings</h3>
     <div class="component__image">
       <img 
       srcset="screenshots/atoms/project-title__heading-1.png 2x"
@@ -68,6 +81,7 @@
   </article>
 
 
-
+  </div>
+  </div>
 </body>
 </html>
