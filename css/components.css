@@ -120,13 +120,18 @@ a {
   text-underline-offset: 3px;
 }
 
+.nav-text {
+  font-size: 16px;
+}
+
+.gallery-text {
+  font-size: 28px;
+  line-height: 30px;
+}
+
 hr {
   border-top: 1px solid black;
   margin-bottom: -7px;
-}
-
-.nav-text {
-  font-size: 16px;
 }
 
 /**
