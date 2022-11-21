@@ -129,6 +129,21 @@ a {
   line-height: 31px;
 }
 
+.carousel__caption-text {
+  font-size: 11px;
+  color: var(--medium-grey)
+}
+
+.hero__prev-next-text {
+  font-size: 14px;
+  color: var(--medium-grey)
+}
+
+.footer-text__black {
+  font-size: 11px;
+  line-height: 15px;
+}
+
 hr {
   border-top: 1px solid black;
   margin-bottom: -7px;
