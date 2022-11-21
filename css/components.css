@@ -139,6 +139,11 @@ a {
   color: var(--medium-grey)
 }
 
+.footer-brand__logo-name {
+  font-size: 14px;
+  line-height: 17px;
+}
+
 .footer-text__black {
   font-size: 11px;
   line-height: 15px;
