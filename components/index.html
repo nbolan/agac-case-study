@@ -23,8 +23,13 @@
       <li><a class="sidebar-link" href="#headings">h1, h2, h3, h4, h5</a></li>
       <li><a class="sidebar-link" href="#text">other text styles</a></li>
       <br>
+      <li><a class="sidebar-link" href="#page-header">PAGE HEADER</a></li>
+      <li><a class="sidebar-link" href="#header-home-button">header home button</a></li>
+      <li><a class="sidebar-link" href="#header-main-nav">header main navigation</a></li>
+      <br>
       <li><a class="sidebar-link" href="#gallery-section">GALLERY SECTION</a></li>
       <li><a class="sidebar-link" href="#gallery-block">gallery block</a></li>
+      <li><a class="sidebar-link" href="#gallery-block__letter">gallery block letter</a></li>
     </ul>
   </section>
 
@@ -143,7 +148,51 @@
     </div>
   </article>
 
-<!--header-->
+<!--page header-->
+
+  <article class="component">
+  <h3 id="page-header">PAGE HEADER</h3>
+  <div class="component__image">
+    <img id="header-home-button"
+    srcset="screenshots/atoms/header-home-button.png 2x"
+    src="screenshots/atoms/header-home-button.png"
+    alt="header home button">
+  </div>
+  <div class="component__code">
+    <img 
+    src="../images/header-home-button.png"
+    alt="header home button">
+  </div>
+  </article>
+
+  <article class="component">
+    <div class="component__image">
+      <img srcset="screenshots/molecules/header-main-nav.png 2x"
+      src="screenshots/molecules/header-main-nav.png"
+      alt="header main navigation">
+    </div>
+
+    <div class="component__code">
+    <div id="header-main-nav" class="header-main-nav">
+    <ul class="header-main-nav__list">
+      <li><a href="!#">
+        <img src="../images/header-home-button.png"
+        alt="header home button">
+      </a></li>
+      <li class="nav-text"><a class="nav" href="!#">Galleries</a></li>
+      <li class="nav-text"><a class="nav" href="!#">Projects</a></li>
+      <li class="nav-text"><a class="nav" href="!#">Awards</a></li>
+      <li class="nav-text"><a class="nav" href="!#">Publications</a></li>
+      <li class="nav-text"><a class="nav" href="!#">About</a></li>
+      <li class="nav-text"><a class="nav" href="!#">Resources</a></li>
+      <li class="nav-text"><a class="nav" href="!#">AGAC Collection</a></li>
+      <li class="nav-text"><a class="nav" href="!#">Shop</a></li>
+    </ul>
+    <p class="nav-text"><a class="nav" href="!#">Fr</a></p>
+    </div> <!--header-main-nav-->
+    </div> <!--component code-->
+
+  </article>
 
 
 <!--gallery-->
@@ -158,14 +207,15 @@
       alt="gallery-block">
     </div>
     <div class="component__code">
-    <article class="gallery-block">
+      <article class="gallery-block">
       <h4>Christie Contemporary</h4>
       <h5>Toronto</h5>
       <img class="gallery-block__image" 
       src="screenshots/atoms/gallery-block__image.png" 
       alt="sculpture and painting in a gallery">
-    </article>
+      </article>
     </div>
+
     <h3 class="component__name" id="gallery-block__letter">Gallery Block Letter</h3>
     <div class="component__image">
       <img 
@@ -173,11 +223,11 @@
       alt="gallery block letter">
     </div>
     <div class="component__code">
-    <article class="gallery-block__letter">
+      <article class="gallery-block__letter">
       <img class="gallery-block__letter" 
       src="../images/gallery-block__letter.png" 
       alt="the letter A">
-    </article>
+      </article>
     </div>
   </article>
 
