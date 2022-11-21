@@ -144,6 +144,16 @@ a {
   line-height: 15px;
 }
 
+.footer-text__medium-gray {
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--medium-grey);
+}
+.footer-text__copyright-credit {
+  font-size: 13px;
+  color: var(--light-grey);
+}
+
 hr {
   border-top: 1px solid black;
   margin-bottom: -7px;
