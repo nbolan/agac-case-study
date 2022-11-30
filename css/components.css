@@ -170,9 +170,9 @@ header
 
 .header-main-nav {
   max-width: 1284px;
-  height: 53px;
+  height: 54px;
   margin: auto;
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: space-between;
   padding: 0;
@@ -180,7 +180,7 @@ header
 }
 
 .header-main-nav__list {
-  height: 53px;
+  height: 54px;
   font-size: 16px;
   list-style: none;
   padding: 0;
@@ -190,14 +190,6 @@ header
 
 a.nav {
   text-decoration: none;
-}
-
-a.nav:active {
-  padding-bottom: 15px;
-  border-bottom: 4px solid black;
-}
-
-.nav-text {
   display: flex;
   font-size: 16px;
   width:fit-content;
@@ -205,6 +197,26 @@ a.nav:active {
   margin: 0;
   border: 1px solid var(--lighter-grey);
 }
+
+a.nav:hover {
+  background: var(--black);
+  color: var(--medium-grey);
+  height: 54px;
+}
+
+a.nav:active {
+  padding-bottom: 12px;
+  border-bottom: 4px solid black;
+}
+/*
+.nav-text {
+  display: flex;
+  font-size: 16px;
+  width:fit-content;
+  padding: 15px;
+  margin: 0;
+  border: 1px solid var(--lighter-grey);
+}*/
 
 /**
 gallery block
