@@ -34,8 +34,9 @@
       <li><a class="sidebar-link" href="#gallery-collection">gallery collection</a></li>
       <li class="space">space</li>
       <li><a class="sidebar-link" href="#page-footer">PAGE FOOTER</a></li>
-      <li><a class="sidebar-link" href="#footer-logo-image">footer logo image</a></li>
-      <li><a class="sidebar-link" href="#footer-logo-name">footer logo name</a></li>
+      <li><a class="sidebar-link" href="#footer-logo-image">footer-brand</a></li>
+      <li><a class="sidebar-link" href="#subscribe">footer-subscribe</a></li>
+      <li><a class="sidebar-link" href="#social">footer-social</a></li>
     </ul>
     </article>
   </div>
@@ -418,7 +419,7 @@
           src="screenshots/atoms/gallery-block__image.png" 
           alt="gallery block">
         </div>
-        
+
       </div>
     </div>
   </article>
@@ -427,9 +428,9 @@
 
   <h3 id="page-footer">PAGE FOOTER</h3>
   <article class="component">
-    <h3>Footer Logo Image</h3>
+    <h3>footer-brand__logo-image</h3>
     <div class="component__image">
-      <img 
+      <img id="footer-logo-image"
       srcset="screenshots/atoms/footer-brand__logo-image.png 2x"
       src="screenshots/atoms/footer-brand__logo-image.png" 
       alt="footer logo image">
@@ -442,7 +443,7 @@
   </article>
 
   <article class="component">
-    <h3 id="footer-logo-name">Footer Logo Name</h3>
+    <h3 id="footer-logo-name">footer-brand__logo-name</h3>
     <div class="component__image">
       <img
       srcset="screenshots/atoms/footer-brand__logo-name.png 2x"
@@ -456,6 +457,130 @@
   </article>
 
   <article class="component">
+    <h3 id="subscribe">footer-subscribe__text-input-box</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-subscribe__text-input-box.png 2x"
+      src="screenshots/atoms/footer-subscribe__text-input-box.png" 
+      alt="newsletter subscription text input box">
+    </div>
+    <div class="component__code">
+      <form>
+        <input class="text-input-box" type="text" name="name" placeholder="Your email address" required>
+      </form>
+      
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-subscribe__button</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-subscribe__button.png 2x"
+      src="screenshots/atoms/footer-subscribe__button.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <form><input class="submit-button" type="submit" value="Subscribe"></form>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-subscribe</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-subscribe.png 2x"
+      src="screenshots/molecules/footer-subscribe.png" 
+      alt="newsletter subscription form">
+    </div>
+    <div class="component__code">
+      <p class="footer-text__black">Subscribe to our newsletter</p>
+      <form>
+      <span><input class="text-input-box" type="text" name="name" placeholder="Your email address" required><input class="submit-button" type="submit" value="Subscribe"></span>
+      </form>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3 id="social">footer-social__logo-facebook</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-social__logo-facebook.png 1.5x"
+      src="screenshots/atoms/footer-social__logo-facebook.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-social__logo-facebook.png" alt="facebook icon">
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-social__logo-instagram</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-social__logo-instagram.png 1.5x"
+      src="screenshots/atoms/footer-social__logo-instagram.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-social__logo-instagram.png" alt="instagram icon">
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-social__logo-twitter</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-social__logo-twitter.png 1.5x"
+      src="screenshots/atoms/footer-social__logo-twitter.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-social__logo-twitter.png" alt="twitter icon">
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-social__logo-youtube</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-social__logo-youtube.png 1.5x"
+      src="screenshots/atoms/footer-social__logo-youtube.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-social__logo-youtube.png" alt="youtube icon">
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-social__logo-linkedin</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-social__logo-linkedin.png 1.5x"
+      src="screenshots/atoms/footer-social__logo-linkedin.png" 
+      alt="newsletter subscription button">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-social__logo-linkedin.png" alt="linkedin icon">
+    </div>
+  </article>
+  <article class="component">
+    <h3>footer-support__logo</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/atoms/footer-support__logo.png 1.5x"
+      src="screenshots/atoms/footer-support__logo.png" 
+      alt="Logo for Societ&eacute; de D&eacute;velopment des Enterprises Colturelles Quebec">
+    </div>
+    <div class="component__code">
+      <img src="../images/footer-support__logo.svg" alt="Logo for Societ&eacute; de D&eacute;velopment des Enterprises Colturelles Quebec">
+    </div>
+  </article>
+  
+  
+
+  <article class="component">
     <h3 id="footer">Footer</h3>
     <div class="component__image">
       <img
@@ -463,6 +588,7 @@
       src="screenshots/organisms/footer.png" 
       alt="footer">
     </div>
+    
     <div class="component__code">
       <div class="footer-container">
         <div class="footer-row1">

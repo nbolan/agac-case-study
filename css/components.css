@@ -247,6 +247,25 @@ gallery
 footer
 **/
 
+
+.footer-text__black {
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.footer-text__medium-gray {
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--medium-grey);
+  list-style: none;
+  padding: 0;
+
+}
+.footer-text__copyright-credit {
+  font-size: 13px;
+  color: var(--light-grey);
+}
+
 .footer-container {
   max-width: 1280;
   display: grid;
@@ -290,20 +309,20 @@ footer
   border-top: 1px solid var(--medium-grey);
 }
 
-.footer-text__black {
+.text-input-box {
+  background-color: var(--lightest-grey);
+  border: 1px solid var(--light-grey);
+  padding: 8px 120px 8px 8px;
   font-size: 11px;
   line-height: 15px;
 }
 
-.footer-text__medium-gray {
+.submit-button {
+  background-color: var(--black);
+  color: white;
+  font-weight: bold;
+  border: 1px solid var(--black);
+  padding: 8px 8px 8px 8px;
   font-size: 11px;
   line-height: 15px;
-  color: var(--medium-grey);
-  list-style: none;
-  padding: 0;
-
-}
-.footer-text__copyright-credit {
-  font-size: 13px;
-  color: var(--light-grey);
 }
