@@ -15,32 +15,36 @@
 <!--sidebar-->
 
   <div class="wrapper">
-  <section class="sidebar">
+  <div class="sidebar">
+    <article class="sidebar-nav">
+      <h3><a class="sidebar-link" href="#agac-components">AGAC Components</a></h3>
     <ul class="sidebar-nav-list">
       <li><a class="sidebar-link" href="#typography">TYPOGRAPHY DEFAULTS</a></li>
       <li><a class="sidebar-link" href="#body-copy">body</a></li>
       <li><a class="sidebar-link" href="#a">a</a></li>
       <li><a class="sidebar-link" href="#headings">h1, h2, h3, h4, h5</a></li>
       <li><a class="sidebar-link" href="#text">other text styles</a></li>
-      <br>
+      <li class="space">space</li>
       <li><a class="sidebar-link" href="#page-header">PAGE HEADER</a></li>
       <li><a class="sidebar-link" href="#header-home-button">header home button</a></li>
       <li><a class="sidebar-link" href="#header-main-nav">header main navigation</a></li>
-      <br>
+      <li class="space">space</li>
       <li><a class="sidebar-link" href="#gallery-section">GALLERY SECTION</a></li>
       <li><a class="sidebar-link" href="#gallery-block">gallery block</a></li>
       <li><a class="sidebar-link" href="#gallery-block__letter">gallery block letter</a></li>
-      <br>
+      <li><a class="sidebar-link" href="#gallery-collection">gallery collection</a></li>
+      <li class="space">space</li>
       <li><a class="sidebar-link" href="#page-footer">PAGE FOOTER</a></li>
       <li><a class="sidebar-link" href="#footer-logo-image">footer logo image</a></li>
       <li><a class="sidebar-link" href="#footer-logo-name">footer logo name</a></li>
     </ul>
-  </section>
+    </article>
+  </div>
 
   <!--content-->
 
   <div class="content">
-  <h1>AGAC Components</h1>
+  <h1 id="agac-components">AGAC Components</h1>
 
   <!--typoography-->
 
@@ -157,8 +161,9 @@
   <h3 id="page-header">PAGE HEADER</h3>
 
   <article class="component">
+  <h3 class="component__name" id="header-home-button">Header Home Button</h3>
   <div class="component__image">
-    <img id="header-home-button"
+    <img
     srcset="screenshots/atoms/header-home-button.png 2x"
     src="screenshots/atoms/header-home-button.png"
     alt="header home button">
@@ -171,6 +176,7 @@
   </article>
 
   <article class="component">
+    <h3 class="component__name" id="header-main-nav">Header Main Navigation</h3>
     <div class="component__image">
       <img srcset="screenshots/molecules/header-main-nav.png 2x"
       src="screenshots/molecules/header-main-nav.png"
@@ -178,7 +184,7 @@
     </div>
     <div class="component__code">
     <!--learn how to change menu for small screen when building page -->
-    <div id="header-main-nav" class="header-main-nav">
+    <div class="header-main-nav">
       <ul class="header-main-nav__list">
         <li><a href="!#"><img class="logo-square" src="../images/header-home-button.png" alt="header home button"></a></li>
         <li class="nav-text"><a class="nav" href="!#">Galleries</a></li>
@@ -215,7 +221,7 @@
       <h5>Toronto</h5>
       <img class="gallery-block__image" 
       src="screenshots/atoms/gallery-block__image.png" 
-      alt="sculpture and painting in a gallery">
+      alt="gallery block">
       </article>
     </div>
   </article>
@@ -227,11 +233,197 @@
       alt="gallery block letter">
     </div>
     <div class="component__code">
-      <article class="gallery-block__letter">
+      <div class="gallery-block__letter">
       <img class="gallery-block__letter" 
-      src="../images/gallery-block__letter.png" 
+      src="../images/gallery-block__letter-a.png" 
       alt="the letter A">
+      </div>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3 class="component__name" id="gallery-collection">Gallery Collection</h3>
+    <div class="gallery-collection"></div>
+    <div class="component__image">
+      <img id="gallery"
+      srcset="screenshots/organisms/gallery.png 1.7x"
+      src="screenshots/organisms/gallery.png"
+      alt="gallery collection">
+    </div>
+
+    <div class="component__code">
+      <div class="gallery">
+
+      <div class="gallery-block__letter">
+        <img class="gallery-block__letter" 
+        src="../images/gallery-block__letter-a.png" 
+        alt="the letter A">
+      </div>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
       </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <div class="gallery-block__letter">
+        <img class="gallery-block__letter" 
+        src="../images/gallery-block__letter-g.png" 
+        alt="the letter G">
+      </div>
+
+      <p class="gallery-text">The Contemporary Art Galleries Association (AGAC) is a non-profit organization that brings together galleries across Canada. AGAC defends the moral and economic interests of its members and ensures the recognition and prosperity of the market for contemporary art in Canada.</p>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <div class="gallery-block__letter">
+        <img class="gallery-block__letter" 
+        src="../images/gallery-block__letter-a.png" 
+        alt="the letter A">
+      </div>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <div class="gallery-block__letter">
+        <img class="gallery-block__letter" 
+        src="../images/gallery-block__letter-c.png" 
+        alt="the letter C">
+      </div>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <div class="gallery-block__letter">
+        <img class="gallery-block__letter" 
+        src="../images/gallery-block__letter-amp.png" 
+        alt="ampersand">
+      </div>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      <article class="gallery-block">
+        <h4>Gallery Name</h4>
+        <h5>Location</h5>
+        <img class="gallery-block__image" 
+        src="screenshots/atoms/gallery-block__image.png" 
+        alt="gallery block">
+      </article>
+
+      </div>
+
     </div>
   </article>
 
@@ -239,6 +431,7 @@
 
   <h3 id="page-footer">PAGE FOOTER</h3>
   <article class="component">
+    <h3>Footer Logo Image</h3>
     <div class="component__image">
       <img 
       srcset="screenshots/atoms/footer-brand__logo-image.png 2x"
@@ -253,14 +446,15 @@
   </article>
 
   <article class="component">
+    <h3 id="footer-logo-name">Footer Logo Name</h3>
     <div class="component__image">
-      <img id="footer-logo-image"
+      <img
       srcset="screenshots/atoms/footer-brand__logo-name.png 2x"
       src="screenshots/atoms/footer-brand__logo-name.png" 
       alt="footer logo name">
     </div>
     <div class="component__code">
-      <p id="footer-logo-name" class="footer-brand__logo-name">Contemporary Art<br>
+      <p class="footer-brand__logo-name">Contemporary Art<br>
         Galleries Association</p>
     </div>
   </article>
