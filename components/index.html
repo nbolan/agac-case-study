@@ -34,9 +34,13 @@
       <li><a class="sidebar-link" href="#gallery-collection">gallery collection</a></li>
       <li class="space">space</li>
       <li><a class="sidebar-link" href="#page-footer">PAGE FOOTER</a></li>
-      <li><a class="sidebar-link" href="#footer-logo-image">footer-brand</a></li>
+      <li><a class="sidebar-link" href="#footer-brand">footer-brand</a></li>
+      <li><a class="sidebar-link" href="#gallery-list">gallery-list</a></li>
       <li><a class="sidebar-link" href="#subscribe">footer-subscribe</a></li>
       <li><a class="sidebar-link" href="#social">footer-social</a></li>
+      <li><a class="sidebar-link" href="#support">footer-support</a></li>
+      <li><a class="sidebar-link" href="#cr-credit">footer-copyright-credit</a></li>
+      <li><a class="sidebar-link" href="#footer">footer</a></li>
     </ul>
     </article>
   </div>
@@ -60,8 +64,7 @@
     </div>
     <div class="component__code">
       <div class="half-page-column">
-      <hr>  
-      <p>body:</p>
+      <hr>
       <p>Created in 2007, Papier is the most important art fair in Quebec. The Montreal event is a driving force in the Canadian contemporary art market and is a space that creates opportunities for exchanges and encounters between the general public, art enthusiasts as well as professionals from the visual arts community.</p>
       <p>AGAC flagship project for now thirteen editions, Papier brings together forty or so of the most prestigious Canadian art galleries each year, both members and non-members of the Association, allowing the public to discover nearly 400 artists.</p>
       <p>Over the years, the fair has been awarded prestigious distinctions, including the Grafika award for its graphic identity, an award for its architectural design and has been named four years in a row by BizBash Magazine in the Top 100 Events in Canada.</p>
@@ -424,13 +427,13 @@
     </div>
   </article>
 
-  <!--footer-->
+  <!--footer components-->
 
   <h3 id="page-footer">PAGE FOOTER</h3>
   <article class="component">
-    <h3>footer-brand__logo-image</h3>
+    <h3 id="footer-logo-image">footer-brand__logo-image</h3>
     <div class="component__image">
-      <img id="footer-logo-image"
+      <img
       srcset="screenshots/atoms/footer-brand__logo-image.png 2x"
       src="screenshots/atoms/footer-brand__logo-image.png" 
       alt="footer logo image">
@@ -443,7 +446,7 @@
   </article>
 
   <article class="component">
-    <h3 id="footer-logo-name">footer-brand__logo-name</h3>
+    <h3 id="footer-brand">footer-brand__logo-name</h3>
     <div class="component__image">
       <img
       srcset="screenshots/atoms/footer-brand__logo-name.png 2x"
@@ -453,6 +456,87 @@
     <div class="component__code">
       <p class="footer-brand__logo-name">Contemporary Art<br>
         Galleries Association</p>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-brand</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-brand.png 2x"
+      src="screenshots/molecules/footer-brand.png" 
+      alt="footer branding">
+    </div>
+    <div class="component__code">
+      <div class="footer-brand">
+        <img 
+        class="footer-brand__logo-image" 
+        src="../images/footer-brand__logo-image.svg"
+        alt="ACAG logo">
+        <p class="footer-brand__logo-name">Contemporary Art <br> Galleries Assoction</p>
+      </div>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3 id="gallery-list">footer-gallery-list</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-gallery-list.png 1.7x"
+      src="screenshots/molecules/footer-gallery-list.png" 
+      alt="gallery list">
+    </div>
+    <div class="component__code">
+      <div class="footer__gallery-list">
+        <ul class="footer-text__medium-gray">
+          <li>Art Mûr</li>
+          <li>Art45</li>
+          <li>Beaux-arts des Amériques</li>
+          <li>Blouin Division</li>
+          <li>Bradley Ertaskiran</li>
+          <li>Christie Contemporary</li>
+          <li>DURAN | MASHAAL</li>
+          <li>ELLEPHANT</li>
+          <li>Equinox Gallery</li>
+          <li>Feheley Fine Arts</li>
+          <li>Franz Kaka</li>
+        </ul>
+        <ul class="footer-text__medium-gray">
+          <li>Galerie 3</li>
+          <li>Galerie a</li>
+          <li>Galerie Bernard</li>
+          <li>Galerie C.O.A</li>
+          <li>Galerie Éric Devlin</li>
+          <li>Galerie Hugues Charbonneau</li>
+          <li>Galerie Jean-Claude Bergeron</li>
+          <li>Galerie Michel Guimont</li>
+          <li>Galerie Nicolas Robert</li>
+          <li>Galerie Robert Poulin</li>
+          <li>Galerie Robertson Arès</li>
+        </ul>
+        <ul class="footer-text__medium-gray">
+          <li>Galerie Simon Blais</li>
+          <li>Galerie Youn</li>
+          <li>Galeries Roger Bellemare et Christian Lambert</li>
+          <li>General Hardware Contemporary</li>
+          <li>Lacerte art contemporain</li>
+          <li>Laroche/Joncas</li>
+          <li>McBride Contemporain</li>
+          <li>Pangée</li>
+          <li>Patrick Mikhail</li>
+          <li>Paul Petro Contemporary Art</li>
+        </ul>
+        <ul class="footer-text__medium-gray">
+          <li>Pierre-François Ouellette art contemporain</li>
+          <li>Stephen Bulger Gallery</li>
+          <li>Studio 21 Fine Art</li>
+          <li>TrépanierBaer Gallery</li>
+          <li>United Contemporary</li>
+          <li>VIVIANEART</li>
+          <li>Yves Laroche Galerie d&#39;art</li>
+          <li>Zalucky Contemporary</li>
+        </ul>
+      </div>
     </div>
   </article>
 
@@ -468,7 +552,6 @@
       <form>
         <input class="text-input-box" type="text" name="name" placeholder="Your email address" required>
       </form>
-      
     </div>
   </article>
 
@@ -494,10 +577,12 @@
       alt="newsletter subscription form">
     </div>
     <div class="component__code">
+      <div class="footer-subscribe">
       <p class="footer-text__black">Subscribe to our newsletter</p>
       <form>
       <span><input class="text-input-box" type="text" name="name" placeholder="Your email address" required><input class="submit-button" type="submit" value="Subscribe"></span>
       </form>
+      </div>
     </div>
   </article>
 
@@ -505,7 +590,7 @@
     <h3 id="social">footer-social__logo-facebook</h3>
     <div class="component__image">
       <img
-      srcset="screenshots/atoms/footer-social__logo-facebook.png 1.5x"
+      srcset="screenshots/atoms/footer-social__logo-facebook.png 1.7x"
       src="screenshots/atoms/footer-social__logo-facebook.png" 
       alt="newsletter subscription button">
     </div>
@@ -518,7 +603,7 @@
     <h3>footer-social__logo-instagram</h3>
     <div class="component__image">
       <img
-      srcset="screenshots/atoms/footer-social__logo-instagram.png 1.5x"
+      srcset="screenshots/atoms/footer-social__logo-instagram.png 1.7x"
       src="screenshots/atoms/footer-social__logo-instagram.png" 
       alt="newsletter subscription button">
     </div>
@@ -531,7 +616,7 @@
     <h3>footer-social__logo-twitter</h3>
     <div class="component__image">
       <img
-      srcset="screenshots/atoms/footer-social__logo-twitter.png 1.5x"
+      srcset="screenshots/atoms/footer-social__logo-twitter.png 1.7x"
       src="screenshots/atoms/footer-social__logo-twitter.png" 
       alt="newsletter subscription button">
     </div>
@@ -544,7 +629,7 @@
     <h3>footer-social__logo-youtube</h3>
     <div class="component__image">
       <img
-      srcset="screenshots/atoms/footer-social__logo-youtube.png 1.5x"
+      srcset="screenshots/atoms/footer-social__logo-youtube.png 1.7x"
       src="screenshots/atoms/footer-social__logo-youtube.png" 
       alt="newsletter subscription button">
     </div>
@@ -557,7 +642,7 @@
     <h3>footer-social__logo-linkedin</h3>
     <div class="component__image">
       <img
-      srcset="screenshots/atoms/footer-social__logo-linkedin.png 1.5x"
+      srcset="screenshots/atoms/footer-social__logo-linkedin.png 1.7x"
       src="screenshots/atoms/footer-social__logo-linkedin.png" 
       alt="newsletter subscription button">
     </div>
@@ -565,8 +650,32 @@
       <img src="../images/footer-social__logo-linkedin.png" alt="linkedin icon">
     </div>
   </article>
+
   <article class="component">
-    <h3>footer-support__logo</h3>
+    <h3>footer-social</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-social.png 1.7x"
+      src="screenshots/molecules/footer-social.png" 
+      alt="social media icons">
+    </div>
+    <div class="component__code">
+      <div class="footer-social">
+        <p class="footer-text__black">Follow us</p>
+        <!--figure out links, icons-->
+        <ul class="social-list">
+        <li><img class="social-icon-circle" src="../images/footer-social__logo-facebook.png" alt="facebook icon"></li>
+        <li><img class="social-icon-circle" src="../images/footer-social__logo-twitter.png" alt="twitter icon"></li>
+        <li><img class="social-icon-circle" src="../images/footer-social__logo-instagram.png" alt="instagram icon"></li>
+        <li><img class="social-icon-circle" src="../images/footer-social__logo-youtube.png" alt="youtube icon"></li>
+        <li><img class="social-icon-circle" src="../images/footer-social__logo-linkedin.png" alt="linkedin icon"></li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3 id="support">footer-support__logo</h3>
     <div class="component__image">
       <img
       srcset="screenshots/atoms/footer-support__logo.png 1.5x"
@@ -577,8 +686,40 @@
       <img src="../images/footer-support__logo.svg" alt="Logo for Societ&eacute; de D&eacute;velopment des Enterprises Colturelles Quebec">
     </div>
   </article>
+
+  <article class="component">
+    <h3>footer-support</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-support.png 1.7x"
+      src="screenshots/molecules/footer-support.png" 
+      alt="Logo for Societ&eacute; de D&eacute;velopment des Enterprises Colturelles Quebec">
+    </div>
+    <div class="component__code">
+      <div class="footer-social">
+        <p class="footer-text__black">With the support of</p>
+        <img src="../images/footer-support__logo.svg" alt="Logo for Societ&eacute; de D&eacute;velopment des Enterprises Colturelles Quebec">
+      </div>
+    </div>
+  </article>
+
+  <article class="component">
+    <h3>footer-copyright-credit</h3>
+    <div class="component__image">
+      <img
+      srcset="screenshots/molecules/footer-copyright-credit.png 1.7x"
+      src="screenshots/molecules/footer-copyright-credit.png" 
+      alt="Copyright AGAC, Design and code by Principal">
+    </div>
+    <div class="component__code">
+      <div class="footer-copyright-credit">
+        <p class="footer-text__copyright">&copy; AGAC</p>
+        <p class="footer-text__copyright-credit">Design and code by Principal</p>
+      </div>
+    </div>
+  </article>
   
-  
+  <!--FOOTER-->
 
   <article class="component">
     <h3 id="footer">Footer</h3>
@@ -591,7 +732,7 @@
     
     <div class="component__code">
       <div class="footer-container">
-        <div class="footer-row1">
+        <div class="footer-brand">
           <img 
           class="footer-brand__logo-image" 
           src="../images/footer-brand__logo-image.svg"
@@ -600,7 +741,7 @@
         </div>
 
         <div class="footer-row2">
-          <div class="footer__column-01">
+          <div class="footer__gallery-list">
             <ul class="footer-text__medium-gray">
               <li>Art Mûr</li>
               <li>Art45</li>
@@ -646,13 +787,27 @@
               <li>TrépanierBaer Gallery</li>
               <li>United Contemporary</li>
               <li>VIVIANEART</li>
-              <li>Yves Laroche Galerie d&#39art</li>
+              <li>Yves Laroche Galerie d&#39;art</li>
               <li>Zalucky Contemporary</li>
             </ul>
           </div>
 
           <div class="footer__column-02">
               <p class="footer-text__black">Subscribe to our newsletter</p>
+              <form>
+                <span><input class="text-input-box" type="text" name="name" placeholder="Your email address" required><input class="submit-button" type="submit" value="Subscribe"></span>
+                </form>
+                <div class="footer-social">
+                  <p class="footer-text__black">Follow us</p>
+                  <!--figure out links, icons-->
+                  <ul class="social-list">
+                  <li><img class="social-icon-circle" src="../images/footer-social__logo-facebook.png" alt="facebook icon"></li>
+                  <li><img class="social-icon-circle" src="../images/footer-social__logo-twitter.png" alt="twitter icon"></li>
+                  <li><img class="social-icon-circle" src="../images/footer-social__logo-instagram.png" alt="instagram icon"></li>
+                  <li><img class="social-icon-circle" src="../images/footer-social__logo-youtube.png" alt="youtube icon"></li>
+                  <li><img class="social-icon-circle" src="../images/footer-social__logo-linkedin.png" alt="linkedin icon"></li>
+                  </ul>
+                </div>
           </div>
 
         </div>

@@ -247,10 +247,10 @@ gallery
 footer
 **/
 
-
 .footer-text__black {
   font-size: 11px;
   line-height: 15px;
+  padding: 2px 0 0 0;
 }
 
 .footer-text__medium-gray {
@@ -266,18 +266,6 @@ footer
   color: var(--light-grey);
 }
 
-.footer-container {
-  max-width: 1280;
-  display: grid;
-  grid-template-rows: 1 400px 200px;
-  border-top: 1px solid var(--black);
-}
-
-.footer-row1 {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .footer-brand__logo-image{
   padding: 12px 100px 25px 0;
 }
@@ -287,32 +275,17 @@ footer
   line-height: 17px;
 }
 
-.footer-row2 {
-  display: grid;
-  grid-gap: 15px;
-  min-height: 400px;
-  max-height: 600px;
-  grid-template-columns: 66% 33%;
-}
-
-.footer__column-01 {
-  grid-column: 1;
-  padding: 0;
-  border-top: 1px solid var(--medium-grey);
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.footer-row2 .footer__column-02 {
-  grid-column: 2;
-  padding: 0;
-  border-top: 1px solid var(--medium-grey);
+.footer-brand {
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid var(--black);
 }
 
 .text-input-box {
   background-color: var(--lightest-grey);
   border: 1px solid var(--light-grey);
   padding: 8px 120px 8px 8px;
+  margin-bottom: 30px;
   font-size: 11px;
   line-height: 15px;
 }
@@ -323,6 +296,65 @@ footer
   font-weight: bold;
   border: 1px solid var(--black);
   padding: 8px 8px 8px 8px;
+  margin-bottom: 30px;
   font-size: 11px;
   line-height: 15px;
+}
+
+.footer-subscribe {
+  border-top: 1px solid var(--medium-grey);
+}
+
+.footer-social {
+  border-top: 1px solid var(--medium-grey);
+}
+
+.social-icon-circle {
+  padding: 0 6px 0 0;
+}
+
+.social-list {
+  list-style: none;
+  display:flex;
+  justify-content:flex-start;
+  padding: 0;
+}
+
+.footer__gallery-list {
+  grid-column: 1;
+  padding: 0;
+  border-top: 1px solid var(--medium-grey);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-copyright-credit {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-text__copyright {
+  font-size: 13px;
+  color: var(--light-grey);
+  padding: 0 100px 0 0;
+}
+
+.footer-container {
+  max-width: 1280px;
+  display: grid;
+  grid-template-rows: 11% 400px 200px;
+}
+
+.footer-row2 {
+  display: grid;
+  grid-gap: 15px;
+  min-height: 400px;
+  max-height: 600px;
+  grid-template-columns: 66% 33%;
+}
+
+.footer-row2 .footer__column-02 {
+  grid-column: 2;
+  padding: 0;
+  border-top: 1px solid var(--medium-grey);
 }
