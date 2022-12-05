@@ -142,7 +142,8 @@ a {
 
 .hero__prev-next-text {
   font-size: 14px;
-  color: var(--medium-grey)
+  color: var(--medium-grey);
+  margin-left: 40px;
 }
 
 .hr__black {
