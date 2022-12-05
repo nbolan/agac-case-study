@@ -232,6 +232,30 @@ a.nav:active {
 }
 
 /**
+project page
+**/
+
+.half-page-column {
+  border-top: 1px solid var(--black);
+}
+
+.future-carousel {
+  border-top: 1px solid var(--black);
+  padding: 18px 0 0 0;
+}
+
+.future-accordion-container {
+  padding: 30px 0 0 0;
+  border-bottom: 1px solid var(--black);
+}
+
+.future-accordion {
+  border-top: 1px solid var(--black);
+  padding: 12px 0 12px 0;
+  margin: 0;
+}
+
+/**
 footer
 **/
 
