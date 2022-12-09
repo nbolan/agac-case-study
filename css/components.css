@@ -9,7 +9,6 @@ layout defaults
 
 body {
   background-color: rgba(0,0,0,.03);
-
   font-family: var(--font-sans-serif);
   font-size: 18px;
   line-height: 21.25px;
@@ -29,6 +28,10 @@ html {
 img {
   display: block;
 }
+
+/**
+components page layout
+**/
 
 .wrapper {
   display: grid;
@@ -66,6 +69,7 @@ img {
 .space {
   color: var(--lighter-grey);
 }
+
 .content {
   grid-area: content;
   flex: 1 0 auto;
@@ -134,32 +138,6 @@ a {
   text-underline-offset: 3px;
 }
 
-.gallery-text {
-  font-size: 28px;
-  line-height: 31px;
-}
-
-.carousel__caption-text {
-  font-size: 11px;
-  color: var(--medium-grey)
-}
-
-.hero__prev-next-text {
-  font-size: 14px;
-  color: var(--medium-grey);
-  margin-left: 40px;
-}
-
-.hr__black {
-  border-top: 1px solid var(--black);
-  margin-bottom: -7px;
-}
-
-.hr__medium-gray {
-  border-top: 1px solid var(--medium-grey);
-  margin-bottom: -7px;
-}
-
 /**
 header
 **/
@@ -186,6 +164,7 @@ header
   display: flex;
   align-items: center;
 }
+
 .header-main-nav__list {
   font-size: 16px;
   list-style: none;
@@ -227,6 +206,7 @@ gallery
 .gallery-collection {
   padding: 0;
 }
+
 .gallery {
   background-color: white;
   padding: 100px 40px;
@@ -237,7 +217,6 @@ gallery
   column-gap: 20px;
   row-gap: 35px;
   justify-content: center;
-
 }
 
 .gallery-block {
@@ -253,6 +232,8 @@ gallery
 }
 
 .gallery-text {
+  font-size: 28px;
+  line-height: 31px;
   display: grid;
   grid-column: 1 / span 2;
 }
@@ -260,6 +241,17 @@ gallery
 /**
 project page
 **/
+
+.carousel__caption-text {
+  font-size: 11px;
+  color: var(--medium-grey)
+}
+
+.hero__prev-next-text {
+  font-size: 14px;
+  color: var(--medium-grey);
+  margin-left: 40px;
+}
 
 .half-page-column {
   border-top: 1px solid var(--black);
