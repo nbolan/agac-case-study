@@ -375,7 +375,7 @@ footer
 .footer__gallery-list {
   grid-column: 1 / span 4;
   grid-row: 2 / span 2;
-  max-width: 1280px;
+
   padding: 11px 0 0 0;
   border-top: 1px solid var(--medium-grey);
   display: flex;
@@ -406,8 +406,8 @@ footer
   background-color: white;
   padding: 0px 40px;
   margin: auto;
-  max-width: 1284px;
   display: grid;
+  max-width: 1284px;
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
