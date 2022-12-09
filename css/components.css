@@ -9,8 +9,13 @@ layout defaults
 
 body {
   background-color: rgba(0,0,0,.03);
-  margin: 0;
+
+  font-family: var(--font-sans-serif);
+  font-size: 18px;
+  line-height: 21.25px;
+  font-weight: 450;
 }
+
 html {
   --font-sans-serif: 'Figtree', sans-serif;
   --black: #000;
@@ -124,13 +129,6 @@ h5 {
   padding: 0;
 }
 
-body {
-  font-family: var(--font-sans-serif);
-  font-size: 18px;
-  line-height: 21.25px;
-  font-weight: 450;
-}
-
 a {
   color: black;
   text-underline-offset: 3px;
@@ -169,32 +167,46 @@ header
 .header-main-nav {
   max-width: 1284px;
   background-color: white;
-  height: 54px;
+  height: 56px;
   margin: auto;
   display: flex; 
   align-items: center;
   justify-content: space-between;
   padding: 0;
-  border: 3px solid var(--lightest-grey);
+  border-bottom: 5px solid var(--lightest-grey);
 }
 
-.header-main-nav__list {
+.logo-square {
+  height: 56px;
+  border: 0;
+}
+
+.language {
   height: 54px;
+  display: flex;
+  align-items: center;
+}
+.header-main-nav__list {
   font-size: 16px;
   list-style: none;
+  height: 56px;
   padding: 0;
   margin: 0;
   display: flex;
+  align-items: center;
 }
 
 a.nav {
+  max-width: 1284px;
   text-decoration: none;
+  height: 56px;
   display: flex;
   font-size: 16px;
   width:fit-content;
-  padding: 15px;
+  padding: 18px 17px 15px 17px;
   margin: 0;
-  border: 1px solid var(--lighter-grey);
+  border-left: 1px solid var(--lighter-grey);
+  border-right: 1px solid var(--lighter-grey);
 }
 
 a.nav:hover {
@@ -208,18 +220,23 @@ a.nav:active {
   border-bottom: 4px solid black;
 }
 
-.gallery-collection{
+/**
+header
+**/
+
+.gallery-collection {
   padding: 0;
 }
 .gallery {
   background-color: white;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
-  max-width: 1255px;
+  max-width: 1284px;
   column-gap: 20px;
   row-gap: 35px;
   justify-content: center;
-  padding: 75px 22px;
+  padding: 100px 40px;
 }
 
 .gallery-block {
