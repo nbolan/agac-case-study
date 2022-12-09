@@ -221,7 +221,7 @@ a.nav:active {
 }
 
 /**
-header
+gallery
 **/
 
 .gallery-collection {
@@ -229,6 +229,7 @@ header
 }
 .gallery {
   background-color: white;
+  padding: 100px 40px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
@@ -236,7 +237,7 @@ header
   column-gap: 20px;
   row-gap: 35px;
   justify-content: center;
-  padding: 100px 40px;
+
 }
 
 .gallery-block {
@@ -399,7 +400,10 @@ footer
 }
 
 .footer-container {
-  max-width: 1280px;
+  background-color: white;
+  padding: 0px 40px;
+  margin: auto;
+  max-width: 1284px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(0, 1fr));
