@@ -303,6 +303,150 @@ footer
   margin: 0;
 }
 
+footer {
+  max-width: 1284px;
+  margin: auto;
+}
+.footer-container {
+  background-color: white;
+  padding: 0px 40px;
+  height: 400px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 65% 33%);
+  grid-template-rows: repeat(4, 52px 92px 30px);
+  }
+  
+.footer-brand {
+  max-width: 1284px;
+  margin: 0;
+  grid-column: 1/span 2;
+  grid-row: 1;
+  height: 72px;
+  display: flex;
+  justify-content: flex-start;
+  border-top: 1px solid var(--black);
+}
+
+.footer-brand__logo-image{
+  grid-column: 1;
+  grid-row: 1;
+  padding: 12px 125px 0px 0;
+  height: 44px;
+}
+
+.footer-brand__logo-name {
+  font-size: 14px;
+  line-height: 17px;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.footer__gallery-list {
+  grid-column: 1;
+  grid-row: 2 / span 2;
+  padding: 11px 0 0 0;
+  border-top: 1px solid var(--medium-grey);
+  column-count: 4;
+  column-gap: 12px;
+}
+
+.footer-subscribe {
+  grid-column: 2;
+  grid-row: 2;
+  border-top: 1px solid var(--medium-grey);
+}
+
+.text-input-box {
+  background-color: var(--lightest-grey);
+  border: 1px solid var(--light-grey);
+  padding: 8px 100px 8px 8px;
+  margin-bottom: 30px;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.submit-button {
+  background-color: var(--black);
+  color: white;
+  font-weight: bold;
+  border: 1px solid var(--black);
+  padding: 8px 8px 8px 8px;
+  margin-bottom: 30px;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.social-support {
+  grid-column: 2;
+  grid-row: 3;
+  display:flex;
+}
+
+.footer-social {
+  grid-column: 2;
+  grid-row: 3;
+  width: 50%;
+  border-top: 1px solid var(--medium-grey);
+}
+
+.social-icon-circle {
+  padding: 0 6px 0 0;
+}
+
+.social-list {
+  list-style: none;
+  display:flex;
+  justify-content:flex-start;
+  padding: 0;
+}
+
+.footer-support  {
+  grid-column: 2;
+  grid-row: 3;
+  width: 50%;
+  border-top: 1px solid var(--medium-grey);
+}
+
+.footer-support-text {
+  margin-left: 20px;
+}
+
+.footer-support-logo {
+  margin-left: 20px;
+}
+
+.footer-copyright-credit {
+  grid-column: 1;
+  grid-row: 5;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-text__copyright {
+  font-size: 13px;
+  color: var(--light-grey);
+  padding: 0 125px 0 0;
+}
+
+/* OLD FOOTER
+.footer-text__black {
+  font-size: 11px;
+  line-height: 15px;
+  padding: 2px 0 0 0;
+}
+
+.footer-text__medium-gray {
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--medium-grey);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .footer-brand {
   grid-column: 1 / span 6;
   height: 52px;
@@ -411,3 +555,5 @@ footer
   grid-gap: 20px;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
+
+ */
