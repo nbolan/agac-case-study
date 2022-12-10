@@ -109,6 +109,7 @@ h2 {
   font-weight: 450;
   color: var(--medium-grey);
   margin-top: -32px;
+  margin-bottom: 50px;
 }
 
 h3 {
@@ -253,12 +254,33 @@ gallery
 project page
 **/
 
-.projects {
+.projects-page {
   background-color: white;
   max-width: 1284px;
-  padding: 150px 40px;
+  padding: 0 0 20px 0;
   margin: auto;
+}
+
+.project-page-content {
+  background-color: white;
+  max-width: 1204px;
+  border-top: 1px solid var(--black);
+  padding: 0;
+  margin: auto;
+  margin-top: 0;
   display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.head-subhead {
+  grid-column: 1 / span 2;
+}
+
+.half-page-column {
+  grid-column: 1;
+  grid-row: 2;
+  border-top: 1px solid var(--black);
 }
 
 .carousel__caption-text {
@@ -268,7 +290,7 @@ project page
 
 .hero {
   background-color: white;
-  padding: 56px 0 40px 0;
+  padding: 56px 0 0 0;
   max-width: 1284px;
   margin: auto;
 }
@@ -277,10 +299,7 @@ project page
   font-size: 14px;
   color: var(--medium-grey);
   margin-left: 40px;
-}
-
-.half-page-column {
-  border-top: 1px solid var(--black);
+  padding: 0 0 2px 0;
 }
 
 .future-carousel {
