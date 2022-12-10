@@ -253,9 +253,24 @@ gallery
 project page
 **/
 
+.projects {
+  background-color: white;
+  max-width: 1284px;
+  padding: 150px 40px;
+  margin: auto;
+  display: grid;
+}
+
 .carousel__caption-text {
   font-size: 11px;
   color: var(--medium-grey)
+}
+
+.hero {
+  background-color: white;
+  padding: 56px 0 40px 0;
+  max-width: 1284px;
+  margin: auto;
 }
 
 .hero__prev-next-text {
