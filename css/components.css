@@ -484,6 +484,15 @@ footer {
     display: none;
   }
 }
+
+@media screen and (max-width: 880px) {
+  .project-page-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 100%;
+  }
+}
   
 @media screen and (max-width: 640px) {
   .footer-container  {
