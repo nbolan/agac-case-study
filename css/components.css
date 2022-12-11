@@ -313,10 +313,19 @@ project page
   border-bottom: 1px solid var(--black);
 }
 
-.future-accordion {
+.future-accordion-row {
   border-top: 1px solid var(--black);
-  padding: 12px 0 12px 0;
-  margin: 0;
+  display: flex;
+}
+
+.future-accordion-year {
+  padding: 0;
+  margin: 12px 0 12px 0;
+}
+
+.future-accordion-edition {
+  padding: 0;
+  margin: 12px 0 12px 100px;
 }
 
 /**
