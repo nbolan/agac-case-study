@@ -101,6 +101,7 @@ h1 {
   font-size: 50px !important;
   line-height: 50px;
   font-weight: 450;
+  margin-top: 10px;
 }
 
 h2 {
@@ -109,7 +110,6 @@ h2 {
   font-weight: 450;
   color: var(--medium-grey);
   margin-top: -32px;
-  margin-bottom: 50px;
 }
 
 h3 {
@@ -275,6 +275,7 @@ project page
 
 .head-subhead {
   grid-column: 1 / span 2;
+  margin-bottom: 60px;
 }
 
 .half-page-column {
