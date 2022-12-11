@@ -215,6 +215,13 @@ a.nav:active {
 gallery
 **/
 
+.home-page {
+  background-color: white;
+  max-width: 1284px;
+  padding: 0 0 20px 0;
+  margin: auto;
+}
+
 .gallery-collection {
   padding: 0;
 }
@@ -495,6 +502,9 @@ footer {
 }
   
 @media screen and (max-width: 640px) {
+  .gallery {
+    padding: 0px 10px;
+  }
   .footer-container  {
     display: flex;
     flex-direction: column;
@@ -503,5 +513,21 @@ footer {
   }
   .footer__gallery-list {
     column-count: 2;
+  }
+  .gallery {
+    padding: 150px 20px;
+  }
+  h1 {
+    font-size: 25px !important;
+    line-height: 25px;
+  }
+  
+  h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .hero__prev-next-text {
+    margin-left: 10px;
   }
 }
