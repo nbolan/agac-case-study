@@ -101,7 +101,9 @@ h1 {
   font-size: 50px !important;
   line-height: 50px;
   font-weight: 450;
-  margin-top: 10px;
+  margin: 0;
+  padding: 12px 0 0 0;
+  border-top: 1px solid var(--black);
 }
 
 h2 {
@@ -109,13 +111,14 @@ h2 {
   line-height: 50px;
   font-weight: 450;
   color: var(--medium-grey);
-  margin-top: -32px;
+  margin: 0;
 }
 
 h3 {
   font-size: 23px;
   line-height: 26px;
   font-weight: 450;
+  padding: 0 0 26px 0;
 }
 
 h4 {
@@ -263,9 +266,8 @@ project page
 
 .project-page-content {
   background-color: white;
-  max-width: 1204px;
-  border-top: 1px solid var(--black);
-  padding: 0;
+  max-width: 1284px;
+  padding: 0 40px 0 40px;
   margin: auto;
   margin-top: 0;
   display: grid;
@@ -275,7 +277,7 @@ project page
 
 .head-subhead {
   grid-column: 1 / span 2;
-  margin-bottom: 60px;
+  margin-bottom: 100px;
 }
 
 .half-page-column {
@@ -308,6 +310,12 @@ project page
   padding: 18px 0 0 0;
 }
 
+.project-text-block {
+  grid-column: 1 /span 2;
+  grid-row: 3;
+  margin-bottom: 115px;
+
+}
 .future-accordion-container {
   padding: 30px 0 0 0;
   border-bottom: 1px solid var(--black);
@@ -315,17 +323,13 @@ project page
 
 .future-accordion-row {
   border-top: 1px solid var(--black);
-  display: flex;
+  display: grid;
+  grid-template-columns: 200px auto 20px;
 }
 
-.future-accordion-year {
+.future-accordion-text {
   padding: 0;
-  margin: 12px 0 12px 0;
-}
-
-.future-accordion-edition {
-  padding: 0;
-  margin: 12px 0 12px 100px;
+  margin: 11px 0 11px 0;
 }
 
 /**
