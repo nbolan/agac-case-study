@@ -363,7 +363,6 @@ footer {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2, 65% 33%);
-  grid-template-rows: repeat(4, 52px 92px 92px 30px);
   }
   
 .footer-brand {
@@ -380,7 +379,7 @@ footer {
 .footer-brand__logo-image{
   grid-column: 1;
   grid-row: 1;
-  padding: 12px 125px 0px 0;
+  padding: 12px 100px 0px 0;
   height: 44px;
 }
 
@@ -475,7 +474,25 @@ footer {
 }
 
 .footer-text__copyright {
-  font-size: 13px;
+  font-size: 11px;
   color: var(--light-grey);
-  padding: 0 125px 0 0;
+  padding: 0 100px 0 0;
+}
+
+@media screen and (max-width: 950px) {
+  .nav-text {
+    display: none;
+  }
+}
+  
+@media screen and (max-width: 640px) {
+  .footer-container  {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    width: 100%;
+  }
+  .footer__gallery-list {
+    column-count: 2;
+  }
 }
