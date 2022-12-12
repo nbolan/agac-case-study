@@ -206,9 +206,18 @@ a.nav:hover {
   height: 54px;
 }
 
-a.nav:active {
-  padding-bottom: 12px;
+a.nav-current {
+  text-decoration: none;
+  padding: 18px 17px 15px 17px;
   border-bottom: 4px solid black;
+}
+
+a.nav-current:hover {
+  text-decoration: none;
+  padding: 18px 17px 15px 17px;
+  background: var(--black);
+  color: var(--medium-grey);
+  height: 54px;
 }
 
 /**
@@ -261,6 +270,18 @@ gallery
   grid-column: 1 / span 2;
 }
 
+.gallery-link {
+ text-decoration: none;
+}
+
+.gallery-link:hover {
+  background-color: var(--lightest-grey);
+}
+
+.gallery-link:active {
+  background-color: var(--lightest-grey);
+}
+
 /**
 project page
 **/
@@ -295,6 +316,16 @@ project page
   color: var(--medium-grey);
   margin-left: 40px;
   padding: 0 0 2px 0;
+}
+
+.previous-next {
+  text-decoration: none;
+  color: var(--medium-grey);
+}
+
+.previous-next:hover {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .head-subhead {
@@ -340,6 +371,18 @@ project page
   margin: 11px 0 11px 0;
 }
 
+.future-accordion-row__link {
+  text-decoration: none;
+}
+
+.future-accordion-row__link:hover {
+  color: var(--medium-grey);
+}
+
+.future-accordion-row__link:active {
+  color: var(--medium-grey);
+}
+
 /**
 footer
 **/
@@ -358,6 +401,21 @@ footer
   padding: 0;
   margin: 0;
 }
+
+.footer-link {
+  text-decoration: none;
+  color: var(--medium-grey);
+ }
+
+.footer-link:hover {
+text-decoration: none;
+color: var(--black);
+}
+
+.footer-link:active {
+  text-decoration: none;
+  color: var(--black);
+  }
 
 footer {
   max-width: 1284px;
@@ -383,7 +441,7 @@ footer {
   border-top: 1px solid var(--black);
 }
 
-.footer-brand__logo-image{
+.footer-brand__logo-image {
   grid-column: 1;
   grid-row: 1;
   padding: 12px 100px 0px 0;
@@ -458,6 +516,10 @@ footer {
   padding: 0;
 }
 
+.social-link:hover {
+  opacity: .5;
+}
+
 .footer-support  {
   grid-column: 2;
   grid-row: 3;
@@ -484,6 +546,21 @@ footer {
   font-size: 11px;
   color: var(--light-grey);
   padding: 0 100px 0 0;
+}
+
+.footer-text__copyright-link {
+  text-decoration: none;
+  color: var(--light-grey);
+}
+
+.footer-text__copyright-link:active {
+  text-decoration: none;
+  color: var(--black);
+}
+
+.footer-text__copyright-link:hover {
+  text-decoration: none;
+  color: var(--black);
 }
 
 @media screen and (max-width: 950px) {
