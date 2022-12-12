@@ -224,13 +224,6 @@ a.nav-current:hover {
 gallery
 **/
 
-.home-page {
-  background-color: white;
-  max-width: 1284px;
-  padding: 0 0 20px 0;
-  margin: auto;
-}
-
 .gallery-collection {
   padding: 0;
 }
@@ -435,7 +428,7 @@ footer {
   margin: 0;
   grid-column: 1/span 2;
   grid-row: 1;
-  height: 72px;
+  height: 55px;
   display: flex;
   justify-content: flex-start;
   border-top: 1px solid var(--black);
@@ -577,7 +570,7 @@ footer {
     width: 100%;
   }
 }
-  
+
 @media screen and (max-width: 640px) {
   .gallery {
     padding: 0px 10px;
